@@ -1,0 +1,67 @@
+.Navbar_content{background-color: #674747;}
+body{
+  background-color: #E8D9D6 !important;
+}
+.glbc{
+    background-color: #674747;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+    gap: 30px;
+}
+.p2{
+text-align: center;
+color: #E8D9D6;
+}
+.gallery_decoration p{
+background-color: #503232;
+padding: 40px 100px;
+border-radius: 20px;
+}
+
+.gallery_decoration p:last-child{
+   padding-bottom: 43px;
+   margin-top: 54px;
+ }
+ .glbc_parent{
+display: flex;
+flex-direction: column;
+align-items:center ;
+gap: 20px;
+
+margin: 20px 20px;
+ }
+ .glbc:first-child{
+padding: 30px 150px;
+margin-top: 30px ;
+ }
+ @media all and (max-width: 1050px){
+.glbc{
+  padding: 10px 50px;
+
+}
+.gallery_decoration p{
+  padding: 10px;
+}
+.img_footballers img{
+width: 300px;
+}
+.glbc:first-child{
+  padding: 10px 50px;
+}
+ }@media all and (max-width: 700px){
+.glbc{
+  padding: 10px 30px;
+}
+ }
+ @media all and (max-width: 500px){
+  .img_footballers img{
+    width: 250px;
+  }
+ }
+
+ 
+ 
+ 

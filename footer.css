@@ -1,0 +1,13 @@
+.footer_link{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  .footer_link img{
+    width: 30px;
+    border-radius: 10px;
+  }
+  .footer{
+    text-align: center;
+    background-color: #D4D4D4 !important;
+  }

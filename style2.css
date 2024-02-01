@@ -1,0 +1,36 @@
+body{
+    background-color: #C0C0C0;
+    border: 5px solid #674747;
+}
+.casilas{
+}
+.casilas_champion{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+padding: 20px;
+gap: 40px;
+}
+.casilas1{
+position: relative;
+
+}
+.p{
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+    padding: 20px;
+    
+}
+.p1{
+    margin-top: -20px;
+}
+@media all and (max-width: 600px)
+   {
+    .casilas{
+        width: 300px;
+    }
+.casilas1{
+    width: 400px;
+}
+
+}
